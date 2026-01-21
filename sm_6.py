@@ -85,7 +85,7 @@ while True:
                 continue
 
             now = time.time()
-            if now - last_publish < UPDATE_PERIOD:
+            if now - last_publish < UPDATE_PERIOD: 
                 continue
             last_publish = now
 
